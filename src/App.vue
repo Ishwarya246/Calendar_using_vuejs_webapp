@@ -16,7 +16,8 @@
       <h2 class="f3" v-for="x in startDayOfMonth() " :key="x"></h2>
       <h2 class="f3" v-for="x in monthlyDays() " :key="x">{{ x }}</h2>
     </section>
-
+    <br>
+    <br>
     <section class="f6">
         <button class="button" @click="prev">Prev</button>
         <button class="button" @click="next">Next</button>
@@ -128,6 +129,7 @@ width: 14.28%;
   font-family: cursive;
   height: 30px;
   font-size: larger;
+  border-radius: 25px;
 }
 
 </style>
